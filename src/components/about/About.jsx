@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-          Software Developer specialized in AI and ML projects, with hands-on experience in building and deploying models for real-world applications. Skilled in creating intelligent models and user-centric web solutions. Proven track record of delivering innovative, scalable, and efficient technologies that enhance user engagement and drive measurable outcomes.
+          Software Developer specializing in AI/ML, Full-Stack development, and Flutter, with hands-on experience building intelligent models and deploying real-world applications. I enjoy solving complex problems through clean architecture and scalable systems, crafting user-centric web and mobile solutions that are both efficient and impactful. Driven by curiosity and innovation, I focus on creating technologies that improve user experiences and deliver measurable, real-world outcomes.
           </p>
 
           <a download="" href={CV} className="button button--flex">

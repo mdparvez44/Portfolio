@@ -1,7 +1,10 @@
 import React from "react";
 import "./skills.css";
-import Backend from "./Backend";
+import Backend from "./Backend"; 
 import Frontend from "./Frontend";
+import Database from "./Database";
+import App from "./App";
+import Aiml from "./Aiml";
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
@@ -9,10 +12,12 @@ const Skills = () => {
       <span className="section__subtitle">My Technical Level</span>
 
       <div className="skills__container container grid">
-        <Frontend />
-
-
+        <Aiml/>
+        <Frontend/>
         <Backend />
+        <Database/>
+        <App/>
+
       </div>
     </section>
   );

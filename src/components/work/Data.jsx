@@ -1,45 +1,114 @@
-import Work1 from "../../assets/coffee.png";
-import Work2 from "../../assets/bird.png";
-import Work3 from "../../assets/att.png";
-import Work5 from "../../assets/doctor.png";
-import Work6 from "../../assets/portfolio.png";
-
+import Work1 from  "../../assets/recoder.png";
+import Work2 from "../../assets/Chat.png"
+import Work15 from "../../assets/portfolio.png";
+import Work16 from "../../assets/image.png";
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "MOCHA MINGLE",
+    title: "Media-Recorder",
     category: "app",
-    deploymentLink: "https://github.com/bossgghere/coffee-ui",
+    deploymentLink: "https://github.com/mdparvez44/Media-Recorder",
   },
   {
     id: 2,
     image: Work2,
-    title: "FLAPPY-BIRD GAME",
+    title: "Chat App",
     category: "app",
-    deploymentLink: "https://github.com/bossgghere/flappy-bird",
+    deploymentLink: "https://github.com/mdparvez44/Team",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Student Information System (SIS)",
-    category: "app",
-    deploymentLink: "https://github.com/bossgghere/dhondi-clone",
+    image: Work16,
+    title: "LSM-website",
+    category: "web",
+    deploymentLink: "https://github.com/mdparvez44/LMS-website",
+  },
+  {
+    id: 4,
+    image: Work16,
+    title: "HEDAMO",
+    category: "web",
+    deploymentLink: "https://github.com/mdparvez44/HEDAMO",
   },
   {
     id: 5,
-    image: Work5,
-    title: "DOCTOR-PORTAL(REACT)",
-    category: "web",
-    deploymentLink: "https://github.com/bossgghere/doctor-portal",
+    image: Work16,
+    title: "Zyvora",
+    category: "AI/ML",
+    deploymentLink: "https://github.com/mdparvez44/Zyvora",
   },
   {
     id: 6,
-    image: Work6,
-    title: "PORTFOLIO(REACT)",
+    image: Work16,
+    title: "Dashboard",
     category: "web",
-    deploymentLink: "https://github.com/bossgghere/Gourav-Portfolio",
+    deploymentLink: "https://github.com/mdparvez44/Dashboard",
   },
+  {
+    id: 7,
+    image: Work16,
+    title: "AdMyBrand",
+    category: "web",
+    deploymentLink: "https://github.com/mdparvez44/ADmyBRAND",
+  },
+  {
+    id: 8,
+    image: Work16,
+    title: "Crash-Game",
+    category: "app",
+    deploymentLink: "https://github.com/mdparvez44/crash-game",
+  },
+  {
+    id: 9,
+    image: Work16,
+    title: "AFSE",
+    category: "AI/ML",
+    deploymentLink: "https://github.com/mdparvez44/AFSE",
+  },
+  {
+    id: 10,
+    image: Work16,
+    title: "Map",
+    category: "web",
+    deploymentLink: "https://github.com/mdparvez44/mapnew",
+  },
+  {
+    id: 11,
+    image: Work16,
+    title: "Dual-Database Agent",
+    category: "AI/ML",
+    deploymentLink: "https://github.com/mdparvez44/Dual-Database-Agent",
+  },
+  {
+    id: 12,
+    image: Work16,
+    title: "3D-Web",
+    category: "web",
+    deploymentLink: "https://github.com/mdparvez44/3dWebDemo",
+  },
+  {
+    id: 13,
+    image: Work16,
+    title: "NLP Notes",
+    category: "AI/ML",
+    deploymentLink: "https://github.com/mdparvez44/NLP-",
+  },
+  {
+    id: 14,
+    image: Work16,
+    title: "ML Models",
+    category: "AI/ML",
+    deploymentLink: "https://github.com/mdparvez44/Machine-Learning--Models",
+  },
+  {
+    id: 15,
+    image: Work15,
+    title: "Portfolio",
+    category: "web",
+    deploymentLink: "https://github.com/mdparvez44/Portfolio",
+  },
+  
 ];
 
 export const projectsNav = [
@@ -52,4 +121,8 @@ export const projectsNav = [
   {
     name: "web",
   },
+  {
+    name: "AI/ML",
+  },
+
 ];

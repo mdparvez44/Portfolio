@@ -12,12 +12,76 @@ const Services = () => {
       <span className="section__subtitle">What I offer</span>
       <div className="services__container container grid">
 
-
-        <div className="services__content">
+  <div className="services__content">
   <div>
-    <i className="uil uil-mobile-android services__icon"></i>
+    <i className="uil uil-robot services__icon"></i>
     <h3 className="services__title">
-      App <br /> Developer
+      AI/ML <br /> Developer
+    </h3>
+  </div>
+  <span
+    className="services__button"
+    onClick={() => {
+      toggleTab(1);
+    }}
+  >
+    View More
+    <i className="uil uil-arrow-right services__button-icon"></i>
+  </span>
+
+  <div
+    className={
+      toggleState === 1
+        ? "services__modal active-modal"
+        : "services__modal"
+    }
+  >
+    <div className="services__modal-content">
+      <i
+        onClick={() => toggleTab(0)}
+        className="uil uil-times services__modal-close"
+      ></i>
+
+      <h3 className="services__modal-title">AI/ML Developer</h3>
+      <p className="services__modal-description">
+        Designing intelligent systems that turn data into actionable insights, with a strong focus on real-world applicability, performance, and scalability. I continuously learn and apply modern AI techniques to build reliable, impactful solutions.
+      </p>
+
+      <ul className="services__modal-services grid">
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Machine Learning Model Development & Evaluation</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Data Preprocessing & Feature Engineering</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Deep Learning & Predictive Analytics</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Model Deployment & Integration into Applications</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Performance Optimization & Continuous Improvement</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div className="services__content">
+  <div>
+    <i className="uil uil-browser services__icon"></i>
+    <h3 className="services__title">
+      Full Stack <br /> Developer
     </h3>
   </div>
   <span
@@ -33,6 +97,71 @@ const Services = () => {
   <div
     className={
       toggleState === 2
+        ? "services__modal active-modal"
+        : "services__modal"
+    }
+  >
+    <div className="services__modal-content">
+      <i
+        onClick={() => toggleTab(0)}
+        className="uil uil-times services__modal-close"
+      ></i>
+
+      <h3 className="services__modal-title">Full Stack Developer</h3>
+      <p className="services__modal-description">
+        Building scalable, end-to-end web applications with a strong emphasis on clean architecture, performance, and user-centric design. I enjoy bridging frontend and backend systems to deliver reliable, production-ready solutions.
+      </p>
+
+      <ul className="services__modal-services grid">
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Modern Frontend Development (React / Next.js)</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Backend Development with Node.js & Express</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">REST API Design & Integration</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Authentication, Authorization & Security</p>
+        </li>
+
+        <li className="services__modal-service">
+          <i className="uil uil-check-circle services__modal-icon"></i>
+          <p className="services__modal-info">Database Design, Optimization & Maintenance</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div className="services__content">
+  <div>
+    <i className="uil uil-mobile-android services__icon"></i>
+    <h3 className="services__title">
+      App <br /> Developer
+    </h3>
+  </div>
+  <span
+    className="services__button"
+    onClick={() => {
+      toggleTab(3);
+    }}
+  >
+    View More
+    <i className="uil uil-arrow-right services__button-icon"></i>
+  </span>
+
+  <div
+    className={
+      toggleState === 3
         ? "services__modal active-modal"
         : "services__modal"
     }
@@ -74,74 +203,6 @@ const Services = () => {
         <li className="services__modal-service">
           <i className="uil uil-check-circle services__modal-icon"></i>
           <p className="services__modal-info">App Optimization & Maintenance</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-<div className="services__content">
-  <div>
-    <i className="uil uil-browser services__icon"></i>
-    <h3 className="services__title">
-      Web Front-End <br /> Developer
-    </h3>
-  </div>
-  <span
-    className="services__button"
-    onClick={() => {
-      toggleTab(3);
-    }}
-  >
-    View More
-    <i className="uil uil-arrow-right services__button-icon"></i>
-  </span>
-
-  <div
-    className={
-      toggleState === 3
-        ? "services__modal active-modal"
-        : "services__modal"
-    }
-  >
-    <div className="services__modal-content">
-      <i
-        onClick={() => toggleTab(0)}
-        className="uil uil-times services__modal-close"
-      ></i>
-
-      <h3 className="services__modal-title">Web Front-End Developer</h3>
-      <p className="services__modal-description">
-        Creating responsive, interactive, and visually appealing websites using
-        modern front-end technologies. Focused on clean code, performance, and
-        great user experience.
-      </p>
-
-      <ul className="services__modal-services grid">
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">Responsive UI Development with HTML, CSS, JS</p>
-        </li>
-
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">React.js Single Page Applications</p>
-        </li>
-
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">Integration with REST APIs & JSON data</p>
-        </li>
-
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">Animations & UI Enhancements with CSS/JS</p>
-        </li>
-
-        <li className="services__modal-service">
-          <i className="uil uil-check-circle services__modal-icon"></i>
-          <p className="services__modal-info">SEO Optimization & Performance Tuning</p>
         </li>
       </ul>
     </div>
