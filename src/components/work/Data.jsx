@@ -1,4 +1,4 @@
-import Work1 from  "../../assets/recoder.png";
+import Work1 from "../../assets/recoder.png";
 import Work2 from "../../assets/Chat.png"
 import Work15 from "../../assets/portfolio.png";
 import Work16 from "../../assets/image.png";
@@ -20,7 +20,7 @@ export const projectsData = [
   {
     id: 3,
     image: Work16,
-    title: "LSM-website",
+    title: "LMS-website",
     category: "web",
     deploymentLink: "https://github.com/mdparvez44/LMS-website",
   },
@@ -108,12 +108,12 @@ export const projectsData = [
     category: "web",
     deploymentLink: "https://github.com/mdparvez44/Portfolio",
   },
-  
+
 ];
 
 export const projectsNav = [
   {
-        name: "all",
+    name: "all",
   },
   {
     name: "app",
